@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meedusa Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .logo {
+            width: 120px;
+            height: 120px;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            background: linear-gradient(to right, #0d4d80, #2e9cca);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .bio {
+            margin-bottom: 30px;
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        .trabalho-com {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            background: linear-gradient(to right, #0d4d80, #2e9cca);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* Espaço entre "Trabalho Com" e "Serviços" */
+        .trabalho-com {
+            margin-bottom: 25px;
+        }
+
+        
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+        
+        .service {
+            background-color: #111;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            border: 1px solid #0d4d80;
+            color: #0d4d80;
+            transition: all 0.3s ease;
+        }
+        
+        .service:hover {
+            background-color: #0d4d80;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+        
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            width: 100%; /* Largura total do contêiner pai */
+            min-height: 70px; /* Altura mínima para uniformidade, ajuste conforme necessário */
+            text-align: start;
+            background-color: #111;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s ease;
+            border: 1px solid #222;
+        }
+        
+        .social-link:hover {
+            background-color: #0d4d80;
+            transform: translateX(5px);
+        }
+        
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .copyright {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <img src="logo.PNG" alt="Logo Meedusa" class="logo">
+        
+        <!-- Nome -->
+        <h1>Meedusa Designer</h1>
+        
+        <!-- Texto de apresentação -->
+        <p class="bio">
+            Oi, me chamo Hellen, mais conhecida como Meedusa. Trabalho há 3 anos como Designer, entregando qualidade, criatividade e soluções personalizadas para cada projeto. Ao longo da minha trajetória, busco transformar ideias em experiências visuais impactantes, ajudando marcas e pessoas a se destacarem no mercado.
+            </p>
+
+        <!-- Trabalho Com -->
+
+        <div class="trabalho-com">
+            <div class="trabalho">Trabalho Com:</div>
+        </div>
+        
+        <!-- Serviços -->
+        <div class="services">
+            <div class="service">Identidade Visual</div>
+            <div class="service">Social Mídia</div>
+            <div class="service">Motion Designer</div>
+            <div class="service">Ilustração</div>
+        </div>
+        
+        <!-- Links sociais -->
+        <div class="social-links">
+            <a href="https://wa.me/86999915454" class="social-link" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                WhatsApp
+            </a>
+            
+            <a href="https://instagram.com/seuinstagram1" class="social-link" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                E-Sports
+            </a>
+            
+            <a href="https://instagram.com/seuinstagram2" class="social-link" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                Identidade Visual
+            </a>
+            
+            <a href="https://instagram.com/seuinstagram3" class="social-link" target="_blank">
+                <div class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                Ilustração
+            </a>
+        </div>
+        
+        <!-- Copyright -->
+        <p class="copyright">© 2023 Todos os direitos reservados - Meedusa Designer</p>
+    </div>
+
+    <script>
+        // Efeito de digitação para o texto de bio
+        document.addEventListener('DOMContentLoaded', function() {
+            const services = document.querySelectorAll('.service');
+            services.forEach(service => {
+                service.addEventListener('click', function() {
+                    this.style.transform = 'scale(0.95)';
+                    setTimeout(() => {
+                        this.style.transform = '';
+                    }, 200);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
